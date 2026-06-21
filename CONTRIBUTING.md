@@ -6,7 +6,7 @@ Thank you for your interest in contributing!
 
 Acest scraper este derivat din [epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper), template-ul de referință pentru scrapere Node.js din ecosistemul peviitor.ro.
 
-Pentru a deriva un scraper nou pentru o altă companie românească, urmează instrucțiunile din [AI-DERIVATION-GUIDE.md](AI-DERIVATION-GUIDE.md) din template-ul EPAM original.
+Pentru a deriva un scraper nou pentru o altă companie românească, consultă template-ul original [epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper) și urmează procesul din `ALGORITHM.md`.
 
 ## Development
 

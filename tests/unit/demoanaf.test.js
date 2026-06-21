@@ -137,14 +137,14 @@ describe('src/anaf.js', () => {
       const data = await anaf.getCompanyFromANAF('42574513');
 
       expect(data).toBeDefined();
-      expect(data.cui).toBe(33159615);
+      expect(data.cui).toBe(42574513);
       expect(mockFetch).toHaveBeenCalledTimes(2);
     });
 
     it('should throw after exhausting retries', async () => {
       mockFetch.mockResolvedValue(errorResponse(500));
 
-      await expect(anaf.getCompanyFromANAF('33159615')).rejects.toThrow();
+      await expect(anaf.getCompanyFromANAF('42574513')).rejects.toThrow();
       expect(mockFetch).toHaveBeenCalledTimes(3);
     });
 

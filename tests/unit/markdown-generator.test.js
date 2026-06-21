@@ -54,7 +54,7 @@ describe("generateJobsMarkdown", () => {
 
     it("includes lastScraped date", () => {
       const md = generateJobsMarkdown(baseCompany, []);
-      expect(md).toContain("2026-06-17");
+      expect(md).toContain("2026-06-21");
     });
 
     it("omits optional fields when not present", () => {
