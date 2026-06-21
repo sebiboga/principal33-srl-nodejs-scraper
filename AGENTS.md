@@ -1,17 +1,10 @@
 # AGENTS.md — Rules for AI agents
 
 ## Project
-EPAM scraper for peviitor.ro (Node.js, ESM, Jest)
+PRINCIPAL33 scraper for peviitor.ro (Node.js, ESM, Jest)
 
-## 📐 This Repo Is a Template
-This repo is the **reference implementation** for all Node.js scrapers in the peviitor.ro ecosystem. Other scrapers are derived from it.
-
-**🤖 If you've been asked to CREATE or RECREATE a derived scraper, read [AI-DERIVATION-GUIDE.md](AI-DERIVATION-GUIDE.md) first.** That file is the consolidated playbook covering every step + all known pitfalls from past derivations.
-
-When making changes to this template:
-- **All company-specific identity lives in `config/company.json`** (CIF, brand, legalName, URLs, API params). Read from `config/company.js` in Node code, or via `jq` in workflows. Never hardcode in source files.
-- **Only the API parsing logic in `index.js`** (`fetchJobsPage`, `parseApiJobs`) is EPAM-specific. The output shape (`mapToJobModel`, `transformJobsForSOLR`) must stay uniform across derived scrapers.
-- **If you add a new file, update [CONTRIBUTING.md](CONTRIBUTING.md)** — the derivation checklist must stay accurate.
+## 🌱 This Repo Is a Derived Scraper
+Acest scraper este derivat din [epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper), template-ul de referință pentru scrapere Node.js din ecosistemul peviitor.ro.
 
 ## Critical Rules
 
@@ -21,7 +14,7 @@ When polling a workflow run with `until [ "$(gh run view ID --json status -q .st
 
 **Always specify the repo explicitly:**
 ```bash
-gh run view <RUN_ID> --repo sebiboga/<derived-repo>-nodejs-scraper --json status -q .status
+gh run view <RUN_ID> --repo sebiboga/principal33-srl-nodejs-scraper --json status -q .status
 ```
 
 Before starting any `gh run watch` or polling loop in the background, sanity-check:
@@ -58,7 +51,7 @@ npm run test:unit
 # Integration tests (ANAF public API, SOLR conditional)
 npm run test:integration
 
-# E2E tests (real EPAM API, SOLR conditional)
+# E2E tests (real Personio API, SOLR conditional)
 npm run test:e2e
 
 # Consistency tests (GitHub repo config — needs GITHUB_REPOSITORY + GITHUB_TOKEN)
@@ -84,11 +77,10 @@ npm run test:consistency
 - `company.js` — company validation (ANAF + Peviitor + SOLR); root `company.json` is a 7-day ANAF cache committed to repo, with stale fallback
 - `solr.js` — SOLR operations
 - `validate-jobs.js` — manual deep validator (content-aware); thin wrapper over src/job-validator.js
-- `tests/validate-epam-jobs.js` — CI fast validator (HEAD only); thin wrapper over src/job-validator.js + solr.js
 - `index.js` — main scraper orchestrator
 
 ### 8. Caching Behavior
 - `tmp/company.json` — per-run scratch cache (gitignored)
-- `company.json` (root) — committed cache, refreshed every 7 days (configurable via `CACHE_MAX_AGE_DAYS` in company.js)
+- `company.json` (root) — committed cache, refreshed every 7 days
 - If ANAF is unreachable AND cache is stale, the code falls back to the stale cache rather than failing the scrape
 - `docs/company.json` is regenerated on every scrape so GitHub Pages can read company identity

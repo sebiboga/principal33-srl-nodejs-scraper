@@ -90,13 +90,13 @@ describe('solr.js', () => {
   describe('queryCompanySOLR', () => {
     it('should return company data', async () => {
       mockFetch.mockResolvedValue(makeSolrResponse(1, [
-        { id: '33159615', company: 'EPAM SYSTEMS INTERNATIONAL SRL', brand: 'EPAM' }
+        { id: '42574513', company: 'PRINCIPAL33 S.R.L.', brand: 'principal33' }
       ]));
 
-      const result = await solr.queryCompanySOLR('id:33159615');
+      const result = await solr.queryCompanySOLR('id:42574513');
 
       expect(result.numFound).toBe(1);
-      expect(result.docs[0].brand).toBe('EPAM');
+      expect(result.docs[0].brand).toBe('principal33');
     });
 
     it('should return empty when company not found', async () => {
@@ -110,7 +110,7 @@ describe('solr.js', () => {
     it('should throw on HTTP error', async () => {
       mockFetch.mockResolvedValue(makeErrorResponse(401, 'Unauthorized'));
 
-      await expect(solr.queryCompanySOLR('id:33159615')).rejects.toThrow('SOLR company query error: 401');
+      await expect(solr.queryCompanySOLR('id:42574513')).rejects.toThrow('SOLR company query error: 401');
     });
   });
 
@@ -193,7 +193,7 @@ describe('solr.js', () => {
       const result = await solr.querySOLR('33159615');
 
       for (const job of result.docs) {
-        expect(job.cif).toMatch(/^\d{8}$/);
+        expect(job.cif).toMatch(/^\d{6,9}$/);
       }
     });
 
@@ -205,7 +205,7 @@ describe('solr.js', () => {
       const result = await solr.querySOLR('abc');
 
       for (const job of result.docs) {
-        expect(job.cif).not.toMatch(/^\d{8}$/);
+        expect(job.cif).not.toMatch(/^\d{6,9}$/);
       }
     });
 

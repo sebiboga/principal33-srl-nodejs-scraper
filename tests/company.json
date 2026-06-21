@@ -1,27 +1,27 @@
 {
-  "validatedAt": "2026-04-13T11:09:40.321Z",
+  "validatedAt": "2026-06-21T12:00:00.000Z",
   "source": "ANAF",
-  "brand": "EPAM",
+  "brand": "principal33",
   "anaf": {
-    "cui": 33159615,
-    "name": "EPAM SYSTEMS INTERNATIONAL SRL",
-    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 1, BLD IANCU DE HUNEDOARA, NR.48, ET.9",
-    "registrationNumber": "J2014005735405",
-    "phone": "",
+    "cui": 42574513,
+    "name": "PRINCIPAL33 S.R.L.",
+    "address": "GĂRII, 13A, Municipiul Braşov, Braşov",
+    "registrationNumber": "J2021002455083",
+    "phone": "0744536151",
     "fax": "",
-    "postalCode": "11745",
-    "caenCode": "6220",
+    "postalCode": "",
+    "caenCode": "6210",
     "iban": "",
-    "registrationState": "TRANSFER(SOSIRE) din data 20.04.2022",
-    "registrationDate": "2014-05-14",
-    "fiscalAuthority": "Direcţia Generală a Finanţelor Publice Municipiul Bucureşti",
-    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT STRAIN",
+    "registrationState": "TRANSFER(SOSIRE) din data 27.08.2021",
+    "registrationDate": "30/08/2021",
+    "fiscalAuthority": "Administraţia Fiscală pentru Contribuabili Mijlocii - Braşov",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT AUTOHTON SI STRAIN",
     "organizationForm": "PERSOANA JURIDICA",
-    "legalForm": "SOCIETATE COMERCIALĂ CU RĂSPUNDERE LIMITATĂ",
+    "legalForm": "SRL",
     "vatRegistered": true,
     "vatPeriods": [
       {
-        "start": "2020-07-24",
+        "start": "2020-06-05",
         "end": null,
         "yearStart": "",
         "message": ""
@@ -31,17 +31,17 @@
     "cashBasisVatStart": null,
     "cashBasisVatEnd": null,
     "inactive": false,
-    "inactiveSince": "2018-12-27",
-    "reactivatedSince": "2020-05-13",
+    "inactiveSince": null,
+    "reactivatedSince": null,
     "splitVat": false,
-    "eFacturaRegistered": false,
+    "eFacturaRegistered": true,
     "headquartersAddress": {
-      "street": "Bld. Iancu de Hunedoara",
-      "number": "48",
-      "locality": "Sector 1 Mun. Bucureşti",
-      "county": "MUNICIPIUL BUCUREŞTI",
-      "country": "",
-      "postalCode": "11745"
+      "street": "GĂRII",
+      "number": "13A",
+      "locality": "Municipiul Braşov",
+      "county": "Braşov",
+      "country": "România",
+      "postalCode": ""
     },
     "fiscalAddress": {
       "street": "",
@@ -53,47 +53,60 @@
     },
     "administrators": [
       {
-        "name": "JASON PETERSON",
-        "role": "administrator"
+        "name": "OCHIANĂ BOGDAN",
+        "role": "administrator",
+        "personId": 36127
+      },
+      {
+        "name": "SANTIAGO BLANCO MANUEL IGNACIO",
+        "role": "administrator",
+        "personId": 1283746
       }
     ],
     "authorizedCaenCodes": [
+      "5821",
+      "5829",
       "6210",
       "6220",
       "6290",
+      "6310",
+      "6391",
+      "6392",
+      "6820",
       "7020",
-      "8559"
+      "7414",
+      "8299"
     ],
     "onrcStatus": 1048,
     "onrcStatusLabel": "Funcțiune"
   },
   "peviitor": {
-    "id": "33159615",
-    "company": "EPAM SYSTEMS INTERNATIONAL SRL",
-    "brand": "EPAM",
-    "group": "EPAM Systems",
+    "id": "42574513",
+    "company": "PRINCIPAL33 S.R.L.",
+    "brand": "principal33",
+    "group": "Principal33",
     "status": "activ",
     "website": [
-      "https://www.epam.com"
+      "https://www.principal33.com"
     ],
     "career": [
-      "https://www.epam.com/careers/locations/romania"
+      "https://principal33.jobs.personio.de"
     ],
-    "lastScraped": "2026-04-12",
-    "scraperFile": "epam.md",
+    "lastScraped": "2026-06-21",
+    "scraperFile": "principal33.md",
     "_version_": 1862291263324160000,
-    "_root_": "33159615"
+    "_root_": "42574513"
   },
   "summary": {
-    "company": "EPAM SYSTEMS INTERNATIONAL SRL",
-    "cif": "33159615",
+    "company": "PRINCIPAL33 S.R.L.",
+    "cif": "42574513",
     "active": true,
-    "inactiveSince": "2018-12-27",
-    "reactivatedSince": "2020-05-13",
-    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 1, BLD IANCU DE HUNEDOARA, NR.48, ET.9",
-    "registrationNumber": "J2014005735405",
-    "caenCode": "6220",
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "address": "GĂRII, 13A, Municipiul Braşov, Braşov",
+    "registrationNumber": "J2021002455083",
+    "caenCode": "6210",
     "vatRegistered": true,
-    "eFacturaRegistered": false
+    "eFacturaRegistered": true
   }
 }

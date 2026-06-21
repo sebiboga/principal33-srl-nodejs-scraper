@@ -1,11 +1,11 @@
 {
-  "cif": "33159615",
-  "legalName": "EPAM SYSTEMS INTERNATIONAL SRL",
-  "brand": "EPAM",
-  "website": "https://www.epam.com",
-  "careerUrl": "https://careers.epam.com",
-  "apiBase": "https://careers.epam.com",
-  "apiCountryId": "8150000000000001155",
-  "defaultLocation": "București",
-  "scraperFile": "https://raw.githubusercontent.com/sebiboga/epam-systems-international-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  "cif": "42574513",
+  "legalName": "PRINCIPAL33 S.R.L.",
+  "brand": "principal33",
+  "website": "https://www.principal33.com",
+  "careerUrl": "https://www.principal33.com/careers",
+  "apiBase": "https://principal33.jobs.personio.de",
+  "apiEndpoint": "/search.json",
+  "defaultLocation": "Brașov",
+  "scraperFile": "https://raw.githubusercontent.com/sebiboga/principal33-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
 }
