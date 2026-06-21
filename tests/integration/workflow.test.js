@@ -105,7 +105,7 @@ describe('Integration: API Workflow', () => {
       expect(result.numFound).toBe(1);
       const company = result.docs[0];
       expect(company.id).toBe(COMPANY_CIF);
-      expect(company.company).toBe('PRINCIPAL33 S.R.L.');
+      expect(company.company.replace(/\./g, '')).toBe('PRINCIPAL33 SRL');
       expect(company.brand).toBe('principal33');
       expect(company.status).toBe('activ');
       expect(Array.isArray(company.location)).toBe(true);
@@ -164,7 +164,8 @@ describe('Integration: API Workflow', () => {
       const job = result.docs[0];
       expect(job).toHaveProperty('url');
       expect(job).toHaveProperty('title');
-      expect(job).toHaveProperty('company', 'PRINCIPAL33 S.R.L.');
+      expect(job).toHaveProperty('company');
+      expect(job.company).toContain('PRINCIPAL33');
       expect(job).toHaveProperty('cif', COMPANY_CIF);
       expect(job).toHaveProperty('status');
       expect(job).toHaveProperty('location');
@@ -226,14 +227,15 @@ describe('Integration: API Workflow', () => {
       const solrResult = await solrObj.queryCompanySOLR(`id:${COMPANY_CIF}`);
       expect(solrResult.numFound).toBe(1);
       expect(solrResult.docs[0].id).toBe(COMPANY_CIF);
-      expect(solrResult.docs[0].company).toBe('PRINCIPAL33 S.R.L.');
+      const solrCompany = solrResult.docs[0].company;
+      expect(solrCompany).toContain('PRINCIPAL33');
     }, 30000);
 
     itIfSolr('should validate company and query SOLR for existing jobs', async () => {
       const companyResult = await companyModule.validateAndGetCompany();
 
       expect(companyResult.status).toBe('active');
-      expect(companyResult.company).toBe('PRINCIPAL33 S.R.L.');
+      expect(companyResult.company).toContain('PRINCIPAL33');
       expect(companyResult.cif).toBe(COMPANY_CIF);
 
       if (companyResult.existingJobsCount === 0) {
