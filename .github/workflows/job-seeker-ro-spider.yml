@@ -85,12 +85,13 @@ jobs:
       - name: Push test results to docs/
         if: always()
         run: |
+          mkdir -p docs/test-results
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/test-results/
-          git add docs/jobs.md || true
-          git commit -m "[skip ci] Update test results" || echo "No changes to commit"
-          git push || echo "Push failed (race condition) — will be picked up next run"
+          git add docs/test-results/ 2>/dev/null || true
+          git add docs/jobs.md 2>/dev/null || true
+          git commit -m "[skip ci] Update test results" 2>/dev/null || echo "No changes to commit"
+          git push 2>/dev/null || echo "Push failed (race condition) — will be picked up next run"
           
       - name: Upload jobs JSON
         if: always()
