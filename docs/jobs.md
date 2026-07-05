@@ -10,11 +10,11 @@
 | Location | GĂRII, 13A, Municipiul Braşov, Braşov |
 | Website | [https://www.principal33.com](https://www.principal33.com) |
 | Careers | [https://www.principal33.com/careers](https://www.principal33.com/careers) |
-| Last Scraped | 2026-06-26 |
+| Last Scraped | 2026-07-05 |
 
-## Current Job Listings (9)
+## Current Job Listings (10)
 
-_Generated: 2026-06-26T09:23:24.466Z_
+_Generated: 2026-07-05T08:50:45.779Z_
 
 ### Data Engineer
 
@@ -40,13 +40,6 @@ _Generated: 2026-06-26T09:23:24.466Z_
 - **Tags:** ai/ml engineer
 - **Status:** scraped
 
-### Project Manager
-
-- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2594639](https://www.principal33.com/job-offers/?personio_job_id=2594639)
-- **Work Mode:** hybrid
-- **Location:** Brasov, Cluj-Napoca, Târgu Mureș
-- **Status:** scraped
-
 ### Junior People & Talent Assistant
 
 - **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2604957](https://www.principal33.com/job-offers/?personio_job_id=2604957)
@@ -69,16 +62,32 @@ _Generated: 2026-06-26T09:23:24.466Z_
 - **Tags:** onestream, finance, epm, tm1, sap, tagetik, adaptive, epm platforms
 - **Status:** scraped
 
-### Salesforce developer
-
-- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2653639](https://www.principal33.com/job-offers/?personio_job_id=2653639)
-- **Work Mode:** hybrid
-- **Location:** Brasov, Cluj-Napoca, Târgu Mureș
-- **Status:** scraped
-
 ### DevOps Engineer
 
 - **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2678422](https://www.principal33.com/job-offers/?personio_job_id=2678422)
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Project Manager
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2695398](https://www.principal33.com/job-offers/?personio_job_id=2695398)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** manager level. lead project coordination with client pmo and cross-vendor teams throughout the upgrade program.
+- **Status:** scraped
+
+### ABAP Backend Developer
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2695456](https://www.principal33.com/job-offers/?personio_job_id=2695456)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** senior consultant level. focus on custom code adaptation and bug fixing arising from the s/4hana release upgrade — not new development.
+- **Status:** scraped
+
+### SAP Functional Tester
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2695468](https://www.principal33.com/job-offers/?personio_job_id=2695468)
+- **Work Mode:** hybrid
+- **Location:** România
 - **Status:** scraped
