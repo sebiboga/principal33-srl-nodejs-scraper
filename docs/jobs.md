@@ -10,11 +10,19 @@
 | Location | GĂRII, 13A, Municipiul Braşov, Braşov |
 | Website | [https://www.principal33.com](https://www.principal33.com) |
 | Careers | [https://www.principal33.com/careers](https://www.principal33.com/careers) |
-| Last Scraped | 2026-07-08 |
+| Last Scraped | 2026-07-09 |
 
-## Current Job Listings (9)
+## Current Job Listings (10)
 
-_Generated: 2026-07-08T08:25:20.189Z_
+_Generated: 2026-07-09T09:38:51.605Z_
+
+### Data Engineer
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2510622](https://www.principal33.com/job-offers/?personio_job_id=2510622)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca, Târgu Mureș
+- **Tags:** sql, aws, python
+- **Status:** scraped
 
 ### Data Scientist
 
