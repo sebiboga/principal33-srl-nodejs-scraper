@@ -10,11 +10,11 @@
 | Location | GĂRII, 13A, Municipiul Braşov, Braşov |
 | Website | [https://www.principal33.com](https://www.principal33.com) |
 | Careers | [https://www.principal33.com/careers](https://www.principal33.com/careers) |
-| Last Scraped | 2026-07-09 |
+| Last Scraped | 2026-07-10 |
 
-## Current Job Listings (10)
+## Current Job Listings (11)
 
-_Generated: 2026-07-09T09:38:51.605Z_
+_Generated: 2026-07-10T09:32:32.638Z_
 
 ### Data Engineer
 
@@ -90,4 +90,12 @@ _Generated: 2026-07-09T09:38:51.605Z_
 - **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2695468](https://www.principal33.com/job-offers/?personio_job_id=2695468)
 - **Work Mode:** hybrid
 - **Location:** România
+- **Status:** scraped
+
+### QA Automation Lead
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2706442](https://www.principal33.com/job-offers/?personio_job_id=2706442)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** qa, automation, quality assurance
 - **Status:** scraped
