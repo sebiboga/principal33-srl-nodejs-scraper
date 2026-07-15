@@ -10,11 +10,11 @@
 | Location | GĂRII, 13A, Municipiul Braşov, Braşov |
 | Website | [https://www.principal33.com](https://www.principal33.com) |
 | Careers | [https://www.principal33.com/careers](https://www.principal33.com/careers) |
-| Last Scraped | 2026-07-14 |
+| Last Scraped | 2026-07-15 |
 
 ## Current Job Listings (11)
 
-_Generated: 2026-07-14T08:01:07.163Z_
+_Generated: 2026-07-15T08:06:29.274Z_
 
 ### Data Engineer
 
@@ -62,7 +62,7 @@ _Generated: 2026-07-14T08:01:07.163Z_
 - **Tags:** onestream, finance, epm, tm1, sap, tagetik, adaptive, epm platforms
 - **Status:** scraped
 
-### DevOps Engineer
+### Infrastructure Engineer
 
 - **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2678422](https://www.principal33.com/job-offers/?personio_job_id=2678422)
 - **Work Mode:** hybrid
