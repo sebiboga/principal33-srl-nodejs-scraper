@@ -10,11 +10,11 @@
 | Location | GĂRII, 13A, Municipiul Braşov, Braşov |
 | Website | [https://www.principal33.com](https://www.principal33.com) |
 | Careers | [https://www.principal33.com/careers](https://www.principal33.com/careers) |
-| Last Scraped | 2026-07-15 |
+| Last Scraped | 2026-07-16 |
 
-## Current Job Listings (11)
+## Current Job Listings (13)
 
-_Generated: 2026-07-15T08:06:29.274Z_
+_Generated: 2026-07-16T08:09:51.869Z_
 
 ### Data Engineer
 
@@ -40,18 +40,18 @@ _Generated: 2026-07-15T08:06:29.274Z_
 - **Tags:** ai/ml engineer
 - **Status:** scraped
 
+### Senior SAP BW Developer with German
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2567317](https://www.principal33.com/job-offers/?personio_job_id=2567317)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
+
 ### Junior People & Talent Assistant
 
 - **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2604957](https://www.principal33.com/job-offers/?personio_job_id=2604957)
 - **Work Mode:** hybrid
 - **Location:** România
-- **Status:** scraped
-
-### Project Manager
-
-- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2634982](https://www.principal33.com/job-offers/?personio_job_id=2634982)
-- **Work Mode:** hybrid
-- **Location:** Brasov, Cluj-Napoca, Târgu Mureș
 - **Status:** scraped
 
 ### OneStream Dev/Arch
@@ -98,4 +98,18 @@ _Generated: 2026-07-15T08:06:29.274Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** qa, automation, quality assurance
+- **Status:** scraped
+
+### SAP SAC Architecture
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2712892](https://www.principal33.com/job-offers/?personio_job_id=2712892)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Status:** scraped
+
+### Data Business Analyst (SAP BW)
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2712902](https://www.principal33.com/job-offers/?personio_job_id=2712902)
+- **Work Mode:** hybrid
+- **Location:** România
 - **Status:** scraped
