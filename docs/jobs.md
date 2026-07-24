@@ -10,11 +10,11 @@
 | Location | GĂRII, 13A, Municipiul Braşov, Braşov |
 | Website | [https://www.principal33.com](https://www.principal33.com) |
 | Careers | [https://www.principal33.com/careers](https://www.principal33.com/careers) |
-| Last Scraped | 2026-07-23 |
+| Last Scraped | 2026-07-24 |
 
-## Current Job Listings (12)
+## Current Job Listings (13)
 
-_Generated: 2026-07-23T08:27:09.485Z_
+_Generated: 2026-07-24T08:25:17.043Z_
 
 ### Data Engineer
 
@@ -99,9 +99,17 @@ _Generated: 2026-07-23T08:27:09.485Z_
 - **Location:** România
 - **Status:** scraped
 
-### Data Business Analyst (SAP BW)
+### SAP BW Consultant
 
 - **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2712902](https://www.principal33.com/job-offers/?personio_job_id=2712902)
 - **Work Mode:** hybrid
 - **Location:** România
+- **Status:** scraped
+
+### Trainee .NET Developer
+
+- **URL:** [https://www.principal33.com/job-offers/?personio_job_id=2725378](https://www.principal33.com/job-offers/?personio_job_id=2725378)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** .net, c#, asp.net core, rest api, sql
 - **Status:** scraped
